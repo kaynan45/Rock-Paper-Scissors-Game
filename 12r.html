@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="12r.css">
+</head>
+
+<body>
+    <div>
+        <p class="title">Rock Paper Scissors</p>
+
+        <button class="moveButton js-rock-button">
+            <img src="images/rock-emoji.png" class="moveIcon rockImage">
+        </button>
+
+        <button class="moveButton js-paper-button">
+            <img src="images/paper-emoji.png" class="moveIcon">
+        </button>
+
+        <button class="moveButton js-scissors-button">
+            <img src="images/scissors-emoji.png" class="moveIcon">
+        </button>
+
+        <p class="result resultShown" onclick="showResult()"></p>
+
+        <p class="moves" onclick="showMoves()"></p>
+
+        <p class="js-score score"></p>
+
+        <button class="resetButton js-reset-button">
+            Reset Score
+        </button>
+        <button class="auto-play-button js-auto-play">Auto play</button>
+        <p class="alertMessage"></p>
+    </div>
+    <script src="12r.js"></script>
+</body>
+
+</html>
